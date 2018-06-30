@@ -14,6 +14,14 @@
 		896B523220E7C25600DC7E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896B523020E7C25600DC7E4E /* LaunchScreen.storyboard */; };
 		896B523D20E7C25600DC7E4E /* DragAndDrop___Swift_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B523C20E7C25600DC7E4E /* DragAndDrop___Swift_APITests.swift */; };
 		896B524820E7C25700DC7E4E /* DragAndDrop___Swift_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B524720E7C25700DC7E4E /* DragAndDrop___Swift_APIUITests.swift */; };
+		896B525E20E7C8DE00DC7E4E /* truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525820E7C8DD00DC7E4E /* truck.png */; };
+		896B525F20E7C8DE00DC7E4E /* motorbike.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525920E7C8DD00DC7E4E /* motorbike.png */; };
+		896B526020E7C8DE00DC7E4E /* bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525A20E7C8DD00DC7E4E /* bicycle.png */; };
+		896B526120E7C8DE00DC7E4E /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525B20E7C8DD00DC7E4E /* bike.png */; };
+		896B526220E7C8DE00DC7E4E /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525C20E7C8DD00DC7E4E /* car.png */; };
+		896B526320E7C8DE00DC7E4E /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 896B525D20E7C8DD00DC7E4E /* bus.png */; };
+		896B526720E7CA1B00DC7E4E /* jesse-bowser-5659-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 896B526520E7CA1B00DC7E4E /* jesse-bowser-5659-unsplash.jpg */; };
+		896B526F20E7D40700DC7E4E /* VehiclesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B526E20E7D40600DC7E4E /* VehiclesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		896B524320E7C25700DC7E4E /* DragAndDrop - Swift APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DragAndDrop - Swift APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896B524720E7C25700DC7E4E /* DragAndDrop___Swift_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DragAndDrop___Swift_APIUITests.swift"; sourceTree = "<group>"; };
 		896B524920E7C25700DC7E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896B525820E7C8DD00DC7E4E /* truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck.png; sourceTree = "<group>"; };
+		896B525920E7C8DD00DC7E4E /* motorbike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motorbike.png; sourceTree = "<group>"; };
+		896B525A20E7C8DD00DC7E4E /* bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycle.png; sourceTree = "<group>"; };
+		896B525B20E7C8DD00DC7E4E /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike.png; sourceTree = "<group>"; };
+		896B525C20E7C8DD00DC7E4E /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		896B525D20E7C8DD00DC7E4E /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		896B526520E7CA1B00DC7E4E /* jesse-bowser-5659-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jesse-bowser-5659-unsplash.jpg"; sourceTree = "<group>"; };
+		896B526E20E7D40600DC7E4E /* VehiclesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,10 @@
 		896B522620E7C25500DC7E4E /* DragAndDrop - Swift API */ = {
 			isa = PBXGroup;
 			children = (
+				896B525720E7C8BB00DC7E4E /* images */,
 				896B522720E7C25500DC7E4E /* AppDelegate.swift */,
 				896B522920E7C25500DC7E4E /* ViewController.swift */,
+				896B526E20E7D40600DC7E4E /* VehiclesCollectionViewCell.swift */,
 				896B522B20E7C25500DC7E4E /* Main.storyboard */,
 				896B522E20E7C25600DC7E4E /* Assets.xcassets */,
 				896B523020E7C25600DC7E4E /* LaunchScreen.storyboard */,
@@ -123,6 +141,20 @@
 				896B524920E7C25700DC7E4E /* Info.plist */,
 			);
 			path = "DragAndDrop - Swift APIUITests";
+			sourceTree = "<group>";
+		};
+		896B525720E7C8BB00DC7E4E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				896B526520E7CA1B00DC7E4E /* jesse-bowser-5659-unsplash.jpg */,
+				896B525A20E7C8DD00DC7E4E /* bicycle.png */,
+				896B525B20E7C8DD00DC7E4E /* bike.png */,
+				896B525D20E7C8DD00DC7E4E /* bus.png */,
+				896B525C20E7C8DD00DC7E4E /* car.png */,
+				896B525820E7C8DD00DC7E4E /* truck.png */,
+				896B525920E7C8DD00DC7E4E /* motorbike.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +261,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896B526320E7C8DE00DC7E4E /* bus.png in Resources */,
+				896B525E20E7C8DE00DC7E4E /* truck.png in Resources */,
 				896B523220E7C25600DC7E4E /* LaunchScreen.storyboard in Resources */,
 				896B522F20E7C25600DC7E4E /* Assets.xcassets in Resources */,
+				896B526220E7C8DE00DC7E4E /* car.png in Resources */,
+				896B525F20E7C8DE00DC7E4E /* motorbike.png in Resources */,
 				896B522D20E7C25500DC7E4E /* Main.storyboard in Resources */,
+				896B526120E7C8DE00DC7E4E /* bike.png in Resources */,
+				896B526020E7C8DE00DC7E4E /* bicycle.png in Resources */,
+				896B526720E7CA1B00DC7E4E /* jesse-bowser-5659-unsplash.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				896B522A20E7C25500DC7E4E /* ViewController.swift in Sources */,
+				896B526F20E7D40700DC7E4E /* VehiclesCollectionViewCell.swift in Sources */,
 				896B522820E7C25500DC7E4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "DragAndDrop - Swift API/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "DragAndDrop - Swift API/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
